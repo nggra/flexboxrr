@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header {
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+  }
+  
+  .box1 {
+    background-color: #e8491d;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  header p {
+    margin-top: 10px;
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #34495e;
+    padding: 1rem 0;
+  }
+  
+  ul li {
+    margin: 0 1rem;
+  }
+  
+  ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  ul li a:hover {
+    color: #e8491d;
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .article-section {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+  }
+  
+  .gallery-section {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h3 {
+    color: #35424a;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  ol {
+    padding-left: 20px;
+  }
+  
+  ol li {
+    margin-bottom: 20px;
+  }
+  
+  .gallery-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .gallery-section img:hover {
+    transform: scale(1.05);
+  }
+  
+  a {
+    color: #e8491d;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .content-wrapper {
+      flex-direction: column;
+    }
+    
+    .article-section, .gallery-section {
+      margin: 0 0 20px 0;
+    }
+  }

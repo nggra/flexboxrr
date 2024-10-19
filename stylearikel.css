@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  header p {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #34495e;
+    padding: 1rem 0;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    flex: 1;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  
+  .article-content {
+    flex: 2;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h3 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  
+  ol {
+    list-style-position: inside;
+    padding-left: 1rem;
+  }
+  
+  ol li {
+    margin-bottom: 1.5rem;
+  }
+  
+  ol li b {
+    color: #e74c3c;
+  }
+  
+  ol li p {
+    margin-top: 0.5rem;
+    text-align: justify;
+  }
+  
+  footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .content-wrapper {
+      flex-direction: column;
+    }
+    
+    .article-content {
+      flex: 1;
+    }
+  }

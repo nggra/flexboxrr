@@ -1,0 +1,42 @@
+<style>
+      .container {
+        width: 200px;
+        height: max-content;
+        padding: 5px 5px;
+        display: flex;
+        
+      }
+
+      .container div {
+        width: 150px;
+        height: 150px;
+        background-color: lightblue;
+        border: 5px solid #677375;
+        text-align: center;
+      }
+      .kiri {
+        float: left;
+      }
+      .kanan {
+        float: right;
+      }
+      .garis {
+        text-decoration: underline;
+      }
+      .box1 {
+        width: auto;
+        height: auto;
+        background-color: lightslategray;
+        margin: 30px 20px;
+        padding: 10px 10px;
+        text-align: center;
+      }
+      .box2 {
+        width: auto;
+        height: auto;
+        background-color: lightskyblue;
+        padding: 10px 10px;
+        margin: 30px 20px;
+        
+      }
+    </style>
